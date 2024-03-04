@@ -13,16 +13,11 @@ let userOne = {
     upi : "user@ybl"
 }
 
-let userTwo = {
-    email: "xyz@gooogle.com",
-    upi: "XYZ@sbi"
-}
-
-let abc = userOne
-abc.email = "Rohan@google.com"  //idhar ouput mein changes aa jyegi
+let userTwo = userOne
+userTwo.email = "Rohan@google.com"  //idhar ouput mein changes aa jyegi
 
 console.log(userOne.email);   
-console.log(abc.email);         // ispe dono mein value chnage ho jana hai..jabki stack mein aisa nhi hoga stack mein jispe last update hoga bs ussi mein chnge hoga
+console.log(usertwo.email);         // ispe dono mein value chnage ho jana hai..jabki stack mein aisa nhi hoga stack mein jispe last update hoga bs ussi mein chnge hoga
 
 
 
