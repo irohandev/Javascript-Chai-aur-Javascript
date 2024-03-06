@@ -28,7 +28,3 @@ let score3 = 100
 let score4 = 500
 
 console.log(Array.of(score1, score2, score3, score4));          // ispe sare score ko mila kr ek array bana dega 
-
-
-
-
