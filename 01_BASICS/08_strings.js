@@ -33,4 +33,4 @@ const url = "https/www.rohan@devsingh.com"
 // console.log(url.includes('Durgapur'));         => False
 
 const str3 = "Rohan-Dev-Singh-from-BCET"
-console.log(str3.split('-'));
+// console.log(str3.split('-'));       => list will come in ouput separating each elements without - [hypen]
