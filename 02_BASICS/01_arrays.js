@@ -43,6 +43,3 @@ console.log("B ", Arr);
 const myn2 = Arr.splice(1, 3)       //ispe last element include hoga 
 console.log("C ", Arr);             // slice krne se woh part original array se delete ho jyega...
 console.log(myn2);
-
-
-
