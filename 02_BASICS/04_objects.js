@@ -57,4 +57,3 @@ console.log(Object.values(user));     //return the array of values present in th
 console.log(Object.entries(user));    //return the array of values & keys present in the object(user)
 
 console.log(user.hasOwnProperty('IslogedIn'));  //for checking in the object is IsLogedIn is present or not.
-
