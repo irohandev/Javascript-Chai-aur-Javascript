@@ -40,4 +40,4 @@ for (const [key, value] of map) {           //map mein for of loop use krne ke t
 }
 
 //NOTE:
-// Object k sath hm for-of loops nahi lga sakte hai!
+// Object k sath hm for-of loops nahi lga sakte hai! 
