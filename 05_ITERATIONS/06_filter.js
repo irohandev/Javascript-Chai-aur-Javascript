@@ -45,3 +45,4 @@ console.log(userBooks);
 
 //NOTE:
 // agar arrow function ke baad hm CURLY BRACES{} mein condition dlnge toh return use krna pdega wrna sirf OBJECT [] return krega 
+// filter true ya false wle gme mein kam ata,..jaise jo cndition true hua aur uske bd woh return krwana toh filter use hota
