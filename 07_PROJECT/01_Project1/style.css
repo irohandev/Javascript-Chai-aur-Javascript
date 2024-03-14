@@ -16,6 +16,9 @@ span {
     border: solid black 2px;
     display: inline-block;
 }
+#purple{
+    background: purple;
+}
 #grey {
     background: grey;
 }
