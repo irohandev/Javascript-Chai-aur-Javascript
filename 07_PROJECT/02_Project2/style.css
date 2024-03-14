@@ -20,6 +20,12 @@
     margin-top: 20px;
     color: rgb(241, 241, 241);
 }
+#info {
+    font-size: 20px;
+    margin-left: 90px;
+    margin-top: 20px;
+    color: rgb(212, 10, 10);
+}
 
 button {
     width: 150px;
