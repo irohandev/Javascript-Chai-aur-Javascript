@@ -59,7 +59,7 @@ promiseFour.then((user) => {
 
 const promiseFive = new Promise(function(resolve, reject){
     setTimeout(function(){
-        let error = true
+        let error = false
         if(!error){
             resolve({username: "JS", password: "1234"})
         }
@@ -82,12 +82,22 @@ async function consumePromisefive(){
 
 async function getAllUsers(){
     try {
-        const response = await fetch ('https://api.github.com/users/hiteshchoudhary')
+        const response = await fetch ('https://jsonplaceholder.typicode.com/users')
         console.log(response);
-        const data = await response.json();
+        const data = await response.json();              //fetching API using async function
         console.log(data);
     } catch (error) {
         console.log("ERROR", error);
     }
 }
-getAllUsers()
+//getAllUsers()
+
+//now doing same thing means fetching API using try & catch
+fetch('https://api.github.com/users/hiteshchoudhary')
+.then((response) => {
+    return response.json()
+})
+.then((data) => {
+    console.log(data);
+})
+.catch((error) => console.log(error))
