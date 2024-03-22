@@ -23,3 +23,8 @@ class User {
 const val = new User("rohan@ai.com", "abc")
 console.log(val.password);
 console.log(val.email);
+
+// Note:
+// Getter aur setter actuall mein values ko override krne mein help krta hai
+// Get ka mtlab memory se leke ana 
+// Set values override ke badd set krne mein help krta hai
