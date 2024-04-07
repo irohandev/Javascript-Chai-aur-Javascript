@@ -25,6 +25,7 @@ function User(username, loginCount, isloggedIn){
     return this         //yeh bydefault return hota hi hai..likhe ya na likhe utna fark nahi pdta hai 
 }
 
+
 const userOne = new User("Rohan", 15, false)                        //new add kr diye toh yeh User function ka ek copy bna diya hai ...jispe jitna value chnges krnge toh idhr main wle pe koi values overriding ka issues nahi hoga  
 const userTwo = new User("Rohan Dev Singh", 20, true)               //same here 
 console.log(userOne);
