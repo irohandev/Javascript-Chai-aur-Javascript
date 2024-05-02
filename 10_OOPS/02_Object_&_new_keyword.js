@@ -21,7 +21,6 @@ createUser.prototype.printMe = function(){
 }
 
 const chai = new createUser("chai", 30)
-
 const tea = createUser("tea", 300)
 
 chai.printMe()
