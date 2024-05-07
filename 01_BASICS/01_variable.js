@@ -12,7 +12,6 @@ College = "M.I.S"
 
 console.log(rollNo);
 
-
 console.table([rollNo, fname, address, college, collegRoll])
 
 
